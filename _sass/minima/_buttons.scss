@@ -1,0 +1,11 @@
+.btn {
+  border: 0;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.05);
+}
+.btn-primary {
+  @include gradient-directional($primary-color, $secondary-color, 135deg);
+  box-shadow: 1px 5px 10px rgba($primary-color, .3);
+  &:hover {
+    margin-top: -1px;
+  }
+}

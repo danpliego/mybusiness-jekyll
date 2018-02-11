@@ -1,0 +1,26 @@
+.footer-container {
+  background: $body-d-color;
+  color: $white;
+  font-size: $font-sm;
+  a, a:hover, a:focus, a:active, h1,h2,h3,h4:not(.section-title),h5,h6 {
+    color: $white;
+  }
+  .blog-entry {
+    p {
+      opacity: .8;
+    }
+    .btn-link {
+      color: $warning-color;
+      border: 1px solid rgba($white, .05);
+      border-radius: 4px;
+    }
+  }
+  hr {
+    border-top-color: rgba($white, .05);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .footer li a {
+    font-size: $font-xs;
+  }
+}

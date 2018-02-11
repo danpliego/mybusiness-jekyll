@@ -1,0 +1,60 @@
+.hero {
+  padding: 3rem 0 8rem;
+  overflow: hidden;
+  background: url('../images/home/hero-container.png');
+  background-size: cover;
+  background-position: left;
+  h1 {
+    font-weight: 900;
+    font-size: 3rem;
+  }
+  .news {
+    padding: .66rem 1rem;
+    border: 1px solid $primary-xl-color;
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: $font-sm;
+  }
+  .hero-content {
+    z-index: 2;
+    position: relative;
+  }
+  .hero-copy {
+    position: relative;
+    width: 450px;
+    img {
+      position: absolute;
+      left: 53%;
+      top: -16px;
+    }
+  }
+}
+.section-wrapper {
+  background: $gray-l-color;
+  z-index: 1;
+  position: relative;
+}
+.our-clients {
+  background: $white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 10px rgba(0,0,0,.05);
+  padding: 1rem 1rem .33rem;
+  margin-top: -4rem;
+  z-index: 2;
+  position: relative;
+}
+.more-products .product .icon {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background: $white;
+  box-shadow: 0 10px 10px rgba(0,0,0,.05);
+  padding: 2rem;
+  margin: 0px auto;
+}
+.testimonial .lead {
+  color: $body-d-color;
+  font-size: 2rem;
+}

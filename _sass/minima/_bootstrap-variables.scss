@@ -1,0 +1,451 @@
+$bootstrap-sass-asset-helper: false !default;
+
+//== Colors
+
+$gray-base:              #2B3A81 !default;
+$gray-darker:            #637280 !default;
+$gray-dark:              #c3d2dc !default;
+$gray:                   #dbe4ea !default;
+$gray-light:             #f2f5f8 !default;
+$gray-lighter:           #f8f9fa !default;
+
+$brand-primary: #108BF0 !default;
+$brand-info: #108BF0 !default;
+$brand-success: #4FCE8A !default;
+$brand-warning: #F4B414 !default;
+$brand-danger:  #E2504F !default;
+
+//== Scaffolding
+
+$body-bg:               #EAEEF2 !default;
+$text-color:            $gray-base !default;
+$link-color:            $brand-primary !default;
+$link-hover-color:      darken($link-color, 10%) !default;
+$link-hover-decoration: underline !default;
+
+//== Typography
+
+$font-family-sans-serif:  'Camphor', sans-serif;
+$font-family-base:        $font-family-sans-serif !default;
+
+$font-size-base:          17px !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:        1.428571429 !default; // 20/14
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+$headings-font-family:    inherit !default;
+$headings-font-weight:    600 !default;
+$headings-line-height:    1.2 !default;
+$headings-color:          inherit !default;
+
+//== Components
+
+$padding-base-vertical:     6px !default;
+$padding-base-horizontal:   12px !default;
+
+$padding-large-vertical:    10px !default;
+$padding-large-horizontal:  16px !default;
+
+$padding-small-vertical:    5px !default;
+$padding-small-horizontal:  10px !default;
+
+$padding-xs-vertical:       1px !default;
+$padding-xs-horizontal:     5px !default;
+
+$line-height-large:         1.3333333 !default; // extra decimals for Win 8.1 Chrome
+$line-height-small:         1.5 !default;
+
+$border-radius-base:        4px !default;
+$border-radius-large:       8px !default;
+$border-radius-small:       2px !default;
+
+//** Global color for active items (e.g., navs or dropdowns).
+$component-active-color:    $gray-base !default;
+//** Global background color for active items (e.g., navs or dropdowns).
+$component-active-bg:       $gray-lighter !default;
+
+//** Width of the `border` for generating carets that indicate dropdowns.
+$caret-width-base:          4px !default;
+//** Carets increase slightly in size for larger components.
+$caret-width-large:         5px !default;
+
+
+//== Tables
+
+$table-cell-padding:            8px !default;
+$table-condensed-cell-padding:  5px !default;
+$table-bg:                      transparent !default;
+$table-bg-accent:               $gray-light !default;
+$table-border-color:            $gray-dark !default;
+
+
+//== Buttons
+
+$btn-font-weight:                600 !default;
+
+$btn-default-color: #212647;
+$btn-default-bg: #F2F5F8;
+
+$btn-primary-color: #fff;
+$btn-primary-bg: #108BF0;
+
+$btn-success-color: #fff;
+$btn-success-bg: #4FCE8A;
+
+$btn-warning-color: #fff;
+$btn-warning-bg: #F4B414;
+
+$btn-danger-color: #fff;
+$btn-danger-bg: #E2504F;
+
+$btn-link-disabled-color:        $gray-light !default;
+
+
+//== Forms
+
+$input-bg:                       #fff !default;
+$input-bg-disabled:              $gray-lighter !default;
+$input-color:                    $gray-base !default;
+$input-border:                   $gray-dark !default;
+
+$input-border-radius:            $border-radius-base !default;
+$input-border-radius-large:      $border-radius-large !default;
+$input-border-radius-small:      $border-radius-small !default;
+
+$input-border-focus:             $brand-primary !default;
+$input-color-placeholder:        $gray-darker !default;
+
+$input-height-base:              ($line-height-computed + ($padding-base-vertical * 2) + 4) !default;
+$input-height-large:             (ceil($font-size-large * $line-height-large) + ($padding-large-vertical * 2) + 4) !default;
+$input-height-small:             (floor($font-size-small * $line-height-small) + ($padding-small-vertical * 2) + 4) !default;
+
+$form-group-margin-bottom:       20px !default;
+
+$input-group-addon-bg:           $gray-lighter !default;
+$input-group-addon-border-color: $input-border !default;
+$cursor-disabled:                pointer !default;
+
+
+//== Dropdowns
+
+$dropdown-bg:                    #fff !default;
+$dropdown-border:                $gray !default;
+$dropdown-fallback-border:       $gray-dark !default;
+$dropdown-divider-bg:            $gray-lighter !default;
+
+$dropdown-link-color:            $gray-base !default;
+$dropdown-link-hover-color:      $gray-base !default;
+$dropdown-link-hover-bg:         $gray-lighter !default;
+
+$dropdown-link-active-color:     $component-active-color !default;
+$dropdown-link-active-bg:        $component-active-bg !default;
+
+$dropdown-link-disabled-color:   $gray-dark !default;
+
+$dropdown-header-color:          $gray-light !default;
+
+$dropdown-caret-color:           #000 !default;
+
+
+//-- Z-index master list
+
+$zindex-tooltip:           1059 !default;
+$zindex-popover:           1060 !default;
+$zindex-navbar:            1061 !default;
+$zindex-dropdown:          1063 !default;
+$zindex-navbar-fixed:      1070 !default;
+$zindex-modal-background:  1071 !default;
+$zindex-modal:             1072 !default;
+
+
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Extra small screen / phone
+//** Deprecated `$screen-xs` as of v3.0.1
+$screen-xs:                  480px !default;
+//** Deprecated `$screen-xs-min` as of v3.2.0
+$screen-xs-min:              $screen-xs !default;
+//** Deprecated `$screen-phone` as of v3.0.1
+$screen-phone:               $screen-xs-min !default;
+
+// Small screen / tablet
+//** Deprecated `$screen-sm` as of v3.0.1
+$screen-sm:                  768px !default;
+$screen-sm-min:              $screen-sm !default;
+//** Deprecated `$screen-tablet` as of v3.0.1
+$screen-tablet:              $screen-sm-min !default;
+
+// Medium screen / desktop
+//** Deprecated `$screen-md` as of v3.0.1
+$screen-md:                  992px !default;
+$screen-md-min:              $screen-md !default;
+//** Deprecated `$screen-desktop` as of v3.0.1
+$screen-desktop:             $screen-md-min !default;
+
+// Large screen / wide desktop
+//** Deprecated `$screen-lg` as of v3.0.1
+$screen-lg:                  1200px !default;
+$screen-lg-min:              $screen-lg !default;
+//** Deprecated `$screen-lg-desktop` as of v3.0.1
+$screen-lg-desktop:          $screen-lg-min !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1) !default;
+$screen-sm-max:              ($screen-md-min - 1) !default;
+$screen-md-max:              ($screen-lg-min - 1) !default;
+
+
+//== Grid system
+//
+//## Define your custom responsive grid.
+
+//** Number of columns in the grid.
+$grid-columns:              12 !default;
+//** Padding between columns. Gets divided in half for the left and right.
+$grid-gutter-width:         34px !default;
+// Navbar collapse
+//** Point at which the navbar becomes uncollapsed.
+$grid-float-breakpoint:     $screen-md !default;
+//** Point at which the navbar begins collapsing.
+$grid-float-breakpoint-max: ($grid-float-breakpoint - 1) !default;
+
+//== Navbar
+
+// Basics of a navbar
+$navbar-height:                    65px !default;
+$navbar-margin-bottom:             0 !default;
+$navbar-border-radius:             0 !default;
+$navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
+$navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
+$navbar-collapse-max-height:       520px !default;
+
+$navbar-default-color:             $gray-base !default;
+$navbar-default-bg:                #fff !default;
+$navbar-default-border:            $gray-dark !default;
+
+// Navbar links
+$navbar-default-link-color:                $gray-base !default;
+$navbar-default-link-hover-color:          $brand-primary !default;
+$navbar-default-link-hover-bg:             transparent !default;
+$navbar-default-link-active-color:         $brand-primary !default;
+$navbar-default-link-active-bg:            transparent !default;
+$navbar-default-link-disabled-color:       $gray-darker !default;
+$navbar-default-link-disabled-bg:          transparent !default;
+
+// Navbar brand label
+$navbar-default-brand-color:               $navbar-default-link-color !default;
+$navbar-default-brand-hover-color:         darken($navbar-default-brand-color, 10%) !default;
+$navbar-default-brand-hover-bg:            transparent !default;
+
+// Navbar toggle
+$navbar-default-toggle-hover-bg:           transparent !default;
+$navbar-default-toggle-icon-bar-bg:        $brand-primary !default;
+$navbar-default-toggle-border-color:       transparent !default;
+
+
+//=== Inverted navbar
+// Reset inverted navbar basics
+$navbar-inverse-color:                      #fff !default;
+$navbar-inverse-bg:                         transparent;
+$navbar-inverse-border:                     0 !default;
+
+// Inverted navbar links
+$navbar-inverse-link-color:                 #fff !default;
+$navbar-inverse-link-hover-color:           #fff !default;
+$navbar-inverse-link-hover-bg:              rgba($gray-base, .1) !default;
+$navbar-inverse-link-active-color:          #fff !default;
+$navbar-inverse-link-active-bg:             transparent !default;
+$navbar-inverse-link-disabled-color:        $gray-dark !default;
+$navbar-inverse-link-disabled-bg:           transparent !default;
+
+// Inverted navbar brand label
+$navbar-inverse-brand-color:                $navbar-inverse-link-color !default;
+$navbar-inverse-brand-hover-color:          #fff !default;
+$navbar-inverse-brand-hover-bg:             transparent !default;
+
+// Inverted navbar toggle
+$navbar-inverse-toggle-hover-bg:            transparent !default;
+$navbar-inverse-toggle-icon-bar-bg:         #fff !default;
+$navbar-inverse-toggle-border-color:        transparent !default;
+
+//== Navs
+
+//=== Shared nav styles
+$nav-link-padding:                          10px 15px !default;
+$nav-link-hover-bg:                         $gray-lighter !default;
+
+$nav-disabled-link-color:                   $gray-light !default;
+$nav-disabled-link-hover-color:             $gray-light !default;
+
+//== Tabs
+$nav-tabs-border-color:                     #ddd !default;
+
+$nav-tabs-link-hover-border-color:          $gray-lighter !default;
+
+$nav-tabs-active-link-hover-bg:             $body-bg !default;
+$nav-tabs-active-link-hover-color:          $gray !default;
+$nav-tabs-active-link-hover-border-color:   #ddd !default;
+
+$nav-tabs-justified-link-border-color:            #ddd !default;
+$nav-tabs-justified-active-link-border-color:     $body-bg !default;
+
+//== Pills
+$nav-pills-border-radius:                   0 !default;
+$nav-pills-active-link-hover-bg:            $component-active-bg !default;
+$nav-pills-active-link-hover-color:         $component-active-color !default;
+
+//== Form states and alerts
+
+$state-success-text: #33B770;
+$state-info-text: #0C6FC1;
+$state-warning-text: #E4A60B;
+$state-danger-text: #DA2524;
+
+$state-success-bg: #EFFAF4;
+$state-info-bg: #E8F4FE;
+$state-warning-bg: #FDF2D7;
+$state-danger-bg: #FBE8E8;
+
+$state-success-border: #B3EACC;
+$state-info-border: #B8DDFB;
+$state-warning-border: #FADB8E;
+$state-danger-border: #F4BDBC;
+
+//== Tooltips
+
+$tooltip-max-width:           200px !default;
+$tooltip-color:               #fff !default;
+
+$tooltip-bg:                  $gray-base !default;
+$tooltip-opacity:             .9 !default;
+
+$tooltip-arrow-width:         5px !default;
+$tooltip-arrow-color:         $tooltip-bg !default;
+
+//== Popovers
+
+$popover-bg:                          #fff !default;
+$popover-max-width:                   305px !default;
+$popover-border-color:                $gray-dark !default;
+$popover-fallback-border-color:       #ccc !default;
+
+$popover-title-bg:                    $gray-lighter !default;
+
+$popover-arrow-width:                 10px !default;
+$popover-arrow-color:                 $popover-bg !default;
+
+$popover-arrow-outer-width:           ($popover-arrow-width + 1) !default;
+$popover-arrow-outer-color:           fade_in($popover-border-color, 0.05) !default;
+$popover-arrow-outer-fallback-color:  darken($popover-fallback-border-color, 20%) !default;
+
+//== Labels
+
+$label-default-bg:            $gray-light !default;
+$label-primary-bg:            $brand-primary !default;
+$label-success-bg:            $brand-success !default;
+$label-info-bg:               $brand-info !default;
+$label-warning-bg:            $brand-warning !default;
+$label-danger-bg:             $brand-danger !default;
+
+$label-color:                 #fff !default;
+$label-link-hover-color:      #fff !default;
+
+//== Modals
+$modal-inner-padding:         15px !default;
+$modal-title-padding:         15px !default;
+$modal-title-line-height:     $line-height-base !default;
+
+$modal-content-bg:                             #fff !default;
+$modal-content-border-color:                   rgba(0,0,0,.2) !default;
+$modal-content-fallback-border-color:          #999 !default;
+
+$modal-backdrop-bg:           $gray-base !default;
+$modal-backdrop-opacity:      .5 !default;
+$modal-header-border-color:   #e5e5e5 !default;
+$modal-footer-border-color:   $modal-header-border-color !default;
+
+$modal-lg:                    940px !default;
+$modal-md:                    600px !default;
+$modal-sm:                    450px !default;
+
+//== Alerts
+
+$alert-padding:               17px !default;
+$alert-border-radius:         $border-radius-base !default;
+$alert-link-font-weight:      bold !default;
+
+$alert-success-bg:            $state-success-bg !default;
+$alert-success-text:          $state-success-text !default;
+$alert-success-border:        $state-success-border !default;
+
+$alert-info-bg:               $state-info-bg !default;
+$alert-info-text:             $state-info-text !default;
+$alert-info-border:           $state-info-border !default;
+
+$alert-warning-bg:            $state-warning-bg !default;
+$alert-warning-text:          $state-warning-text !default;
+$alert-warning-border:        $state-warning-border !default;
+
+$alert-danger-bg:             $state-danger-bg !default;
+$alert-danger-text:           $state-danger-text !default;
+$alert-danger-border:         $state-danger-border !default;
+
+//== Panels
+
+$panel-bg:                    #fff !default;
+$panel-body-padding:          20px !default;
+$panel-heading-padding:       15px 20px !default;
+$panel-footer-padding:        $panel-heading-padding !default;
+$panel-border-radius:         $border-radius-base !default;
+
+$panel-inner-border:          $gray !default;
+$panel-footer-bg:             $gray-lighter !default;
+
+$panel-default-text:          $gray-base !default;
+$panel-default-border:        $gray !default;
+$panel-default-heading-bg:    $gray-lighter !default;
+
+//== Wells
+
+$well-bg:                     $gray-lighter !default;
+$well-border:                 #DDE2E7 !default;
+
+
+//== Badges
+
+$badge-color:                 #fff !default;
+$badge-link-hover-color:      #fff !default;
+$badge-bg:                    $gray-light !default;
+
+$badge-active-color:          $link-color !default;
+$badge-active-bg:             #fff !default;
+
+$badge-font-weight:           bold !default;
+$badge-line-height:           1 !default;
+$badge-border-radius:         10px !default;
+
+//== Close
+
+$close-font-weight:           bold !default;
+$close-color:                 #000 !default;
+$close-text-shadow:           0 1px 0 #fff !default;
+
+//== Type
+
+$text-muted:                  $gray-darker !default;
+$headings-small-color:        $gray-darker !default;
+
+$hr-border:                   $gray-lighter !default;

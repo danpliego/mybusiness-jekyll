@@ -1,0 +1,74 @@
+/* Colors */
+
+$body-d-color:           #151C40;
+$body-color:             #2B3A81;
+$body-l-color:           #3241C0;
+$body-xl-color:          #637280;
+
+$gray-color:             #f2f5f8;
+$gray-xd-color:          #c3d2dc;
+$gray-d-color:           #dbe4ea;
+$gray-l-color:           #f8f9fa;
+$white:                  #fff;
+$gray-body-bg:           #EAEEF2;
+
+$primary-color:          #108BF0;
+$primary-d-color:        darken($primary-color, 10%);
+$primary-l-color:        lighten($primary-color, 15%);
+$primary-xl-color:       lighten($primary-color, 35%);
+$primary-xxl-color:      lighten($primary-color, 45%);
+
+$secondary-color:        #7E5CED;
+$secondary-d-color:      darken($secondary-color, 7%);
+$secondary-l-color:      lighten($secondary-color, 15%);
+$secondary-xl-color:     lighten($secondary-color, 25%);
+$secondary-xxl-color:    lighten($secondary-color, 33%);
+
+$success-color:          #4FCE8A;
+$success-d-color:        darken($success-color, 10%);
+$success-l-color:        lighten($success-color, 15%);
+$success-xl-color:       lighten($success-color, 25%);
+$success-xxl-color:      lighten($success-color, 40%);
+
+$warning-color:          #FFD400;
+$warning-d-color:        darken($warning-color, 5%);
+$warning-l-color:        lighten($warning-color, 15%);
+$warning-xl-color:       lighten($warning-color, 25%);
+$warning-xxl-color:      lighten($warning-color, 40%);
+
+$danger-color:          #E2504F;
+$danger-d-color:        darken($danger-color, 10%);
+$danger-l-color:        lighten($danger-color, 15%);
+$danger-xl-color:       lighten($danger-color, 25%);
+$danger-xxl-color:      lighten($danger-color, 35%);
+
+$alt-orange-color:      #DB8250;
+$facebook-color:        #39579A;
+
+$border-radius:         2px;
+
+// Shadows
+
+$box-shadow:            0px 1px 3px rgba(0,0,0,.1);
+$big-shadow:            0px 1px 6px rgba(0,0,0,.2);
+$shadow-drop:           0px 0px 10px rgba(0,0,0,.20);
+$shadow-modal:          0px 0px 10px rgba(0,0,0,.30);
+$text-shadow:           0px 1px 1px rgba(0,0,0,.05);
+
+// Type Weights
+
+$x-bold: 900;
+$bold: 600;
+$semi-bold: 500;
+$regular: 400;
+
+// Font Sizes
+
+$font-xxs: .65rem;
+$font-xs: .85rem;
+$font-sm: .9rem;
+$font-lg: 1.1rem;
+$font-xl: 1.25rem;
+$font-xxl: 2.5rem;
+
+$cover: cover;

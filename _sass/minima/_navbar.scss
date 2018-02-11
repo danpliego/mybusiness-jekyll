@@ -1,0 +1,22 @@
+.navbar {
+  box-shadow: 0 .33rem .33rem rgba(0,0,0,.05);
+  background: #fff;
+  border-bottom: 0;
+  z-index: 4;
+  .navbar-nav {
+    > li > a {
+      color: $body-d-color;
+      font-size: $font-sm;
+      padding-left: .66rem;
+      padding-right: .66rem;
+    }
+  }
+}
+.btn {
+  border: 0;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.05);
+}
+.btn-primary {
+  @include gradient-directional($primary-color, $secondary-color, 135deg);
+  box-shadow: 1px 5px 10px rgba($primary-color, .3);
+}
