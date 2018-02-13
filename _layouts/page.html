@@ -1,14 +1,32 @@
 ---
 layout: default
 ---
-<article class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
-
-  <div class="post-content">
-    {{ content }}
+<div class="default-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="page-title">
+          <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li class="active">{{ page.title | escape }}</li>
+          </ol>
+          <h1 class="unmargin-top">{{ page.title | escape }}</h1>
+        </div>
+        <div class="white-box">
+          {{ content }}
+        </div>
+      </div>
+    </div>
   </div>
-
-</article>
+  <div class="section-more-info">
+    <h4>
+      ¿Tienes dudas o necesitas más información?
+      <span class="light-title">
+        <a href="#">Llamanos</a>,
+        <a href="#">escríbenos</a> o
+        <a href="#">chatea con un asesor</a>
+      </span>
+    </h4>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+.default-page {
+  background: url('/images/bg-section.png');
+  background-size: cover;
+  .section-more-info {
+    background: $white;
+  }
+}
+.page-title {
+  margin-top: 2rem;
+}
+.white-box {
+  margin: 2rem 0 4rem;
+  background: $white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 10px rgba(0,0,0,.05);
+  padding: 2rem;
+}
+.icon-list {
+  svg {
+    position: absolute;
+    margin-left: -2rem;
+  }
+  li {
+    padding-left: 2rem;
+  }
+}
+.section-more-info {
+  padding: 2rem 0;
+  margin-top: 2rem;
+  border-top: 1px solid $gray-d-color;
+  text-align: center;
+}
+.form-horizontal {
+  .control-label {
+    font-weight: 600;
+    font-size: .9rem;
+    padding-right: 0;
+    padding-top: .66rem;
+  }
+}

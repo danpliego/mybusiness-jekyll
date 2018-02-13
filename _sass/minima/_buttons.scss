@@ -1,11 +1,29 @@
 .btn {
-  border: 0;
   text-shadow: 1px 1px 0 rgba(0,0,0,.05);
+  border: 0;
 }
 .btn-primary {
   @include gradient-directional($primary-color, $secondary-color, 135deg);
   box-shadow: 1px 5px 10px rgba($primary-color, .3);
   &:hover {
     margin-top: -1px;
+  }
+}
+.btn-light {
+  background: $white;
+  box-shadow: 1px 5px 10px $gray-d-color;
+  border: 1px solid $gray-d-color!important;
+  &:hover {
+    margin-top: -1px;
+    color: $primary-d-color;
+  }
+}
+.btn-rounded {
+  background: none!important;
+  border-radius: 4px;
+  box-shadow: none!important;
+  &.btn-primary {
+    border: 1px solid $primary-xl-color;
+    color: $primary-color;
   }
 }

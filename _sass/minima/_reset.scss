@@ -68,6 +68,19 @@ h1,h2,h3,h4,h5,h6, .lead {
 strong {
   font-weight: 600;
 }
+.white-section {
+  background: $white;
+}
+iframe {
+  max-width: 100%;
+}
+.breadcrumb {
+  background: none;
+  padding: 0;
+  > .active {
+    color: $body-d-color;
+  }
+}
 
 // Displays
 
