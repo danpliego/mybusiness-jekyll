@@ -1,48 +1,17 @@
 ---
-layout: empty-page
+layout: full-page
 title: Tiempo Aire
 permalink: /productos/tiempo-aire/
 ---
 
-<div class="hero my-business">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6 hero-content">
-        <div class="hero-main-copy">
-          <div class="hero-copy">
-            <h1>{{ page.title | escape }}</h1>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-5 col-md-offset-1">
-      </div>
-    </div>
-  </div>
+<p>
+  Para el nuevo servicio de Tiempo Aire pueden ingresar en la siguiente liga:
+  <a href="https://tiempoaire.mybusinesspos.net/">https://tiempoaire.mybusinesspos.net/</a>
+</p>
+<p>En este sitio podra consultar sus ventas de tiempo aire, para acceder ingrese su idpos y su pin:</p>
+<iframe src="https://tiempoaire.mybusinesspos.net/" width="100%" height="500px"></iframe>
+<hr>
+<div class="text-center">
+  <h4>¿Quieres vender Tiempo Aire? <a href="/productos/tiempo-aire/venda-tae">Da click aquí</a></h4>
 </div>
-
-<div class="section-wrapper">
-  <div class="container">
-    <div class="our-clients text-center">
-      <h4>Subtitle</h4>
-    </div>
-  </div>
-  <div class="container padding-lv5-ver">
-    <div class="row">
-      <div class="col-sm-10 col-sm-offset-1">
-        section-content
-      </div>
-    </div>
-    <div class="section-more-info">
-      <h4>
-        ¿Tienes dudas o necesitas más información?
-        <span class="light-title">
-          <a href="#">Llamanos</a>,
-          <a href="#">escríbenos</a> o
-          <a href="#">chatea con un asesor</a>
-        </span>
-      </h4>
-    </div>
-  </div>
-</div>
-
 
