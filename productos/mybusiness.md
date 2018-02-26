@@ -19,9 +19,10 @@ permalink: /productos/mybusiness/
             Con MyBusiness POS tiene al mejor software de punto de venta, con buen precio, funcionalidad, experiencia, robustez y facilidad de uso.
           </p>
           <div class="padding-lv3-ver">
-            <a href="#" class="btn btn-lg btn-primary uppercase font-size-xs margin-lv2-right">Comprar Ahora</a>
-            <a href="#" class="btn btn-lg btn-light uppercase font-size-xs">Prueba gratis por 30 días</a>
+            <a href="/donde-comprar" class="btn btn-lg btn-primary uppercase font-size-xs margin-lv2-right">Comprar Ahora</a>
+            <a href="/descargas/mybusiness" class="btn btn-lg btn-light uppercase font-size-xs">Prueba gratis por 30 días</a>
           </div>
+
         </div>
       </div>
       <div class="col-sm-5 col-md-offset-1">
@@ -70,14 +71,17 @@ permalink: /productos/mybusiness/
             <iframe width="560" height="315" src="https://www.youtube.com/embed/j500GzCS8j0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
           <div class="col-sm-6">
-            <h6>Características de la licencia</h6>
-            <ul class="list-unstyled icon-list">
-              <li><i class="fas fa-long-arrow-alt-right margin-lv2-right"></i>Licencia por máquina.</li>
-              <li><i class="fas fa-long-arrow-alt-right margin-lv2-right"></i>Licencia vitalicia, es decir, sólo se paga una vez.</li>
-              <li><i class="fas fa-long-arrow-alt-right margin-lv2-right"></i>Se puede instalar apartir de Windows 7 service pack 1 hasta Windows 10</li>
-              <li><i class="fas fa-long-arrow-alt-right margin-lv2-right"></i>Puedes actualizar tu versión a una versión más reciente pagando una actualización.</li>
-            </ul>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZsIfOW0sUjU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
+        </div>
+        <div class="padding-lv5-ver">
+          <h4>Características de la licencia</h4>
+          <ul class="list-unstyled icon-list">
+            <li><i class="fas fa-long-arrow-alt-right margin-lv2-right"></i>Licencia por máquina.</li>
+            <li><i class="fas fa-long-arrow-alt-right margin-lv2-right"></i>Licencia vitalicia, es decir, sólo se paga una vez.</li>
+            <li><i class="fas fa-long-arrow-alt-right margin-lv2-right"></i>Se puede instalar apartir de Windows 7 service pack 1 hasta Windows 10</li>
+            <li><i class="fas fa-long-arrow-alt-right margin-lv2-right"></i>Puedes actualizar tu versión a una versión más reciente pagando una actualización.</li>
+          </ul>
         </div>
       </div>
     </div>

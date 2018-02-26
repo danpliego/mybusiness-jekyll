@@ -1,48 +1,32 @@
 ---
-layout: empty-page
-title: Facturación electrónica
-permalink: /productos/facturacion-electronica/
+layout: full-page
+title: Facturación Electrónica
+permalink: /productos/facturacion-electronica
 ---
 
-
-<div class="hero my-business">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6 hero-content">
-        <div class="hero-main-copy">
-          <div class="hero-copy">
-            <h1>{{ page.title | escape }}</h1>
-          </div>
-        </div>
+<div class="more-products text-center padding-lv4-bottom">
+  <div class="row">
+    <div class="product col-sm-6 padding-lv4-bottom">
+      <div class="icon text-center">
+        <i class="fas fa-file-alt success-color"></i>
       </div>
-      <div class="col-sm-5 col-md-offset-1">
+      <h4>Necesitas Facturar</h4>
+      <p class="text-center body-xl-color font-size-sm">
+        Requisitos y pasos para facturar en linea desde tu negocio
+      </p>
+      <a href="/productos/facturacion-electronica/necesitas-facturar" class="btn btn-primary">Ver Detalles</a>
+    </div>
+    <div class="product col-sm-6 padding-lv4-bottom">
+      <div class="icon text-center">
+        <i class="fas fa-certificate warning-color"></i>
       </div>
+      <h4>Timbres Fiscales</h4>
+      <p class="text-center body-xl-color font-size-sm">
+        Adquiere timbres fiscales para tu negocio
+      </p>
+      <a href="/donde-comprar/tienda-virtual/timbres-fiscales" class="btn btn-primary">Ver detalles</a>
     </div>
   </div>
 </div>
 
-<div class="section-wrapper">
-  <div class="container">
-    <div class="our-clients text-center">
-      <h4>Subtitle</h4>
-    </div>
-  </div>
-  <div class="container padding-lv5-ver">
-    <div class="row">
-      <div class="col-sm-10 col-sm-offset-1">
-        section-content
-      </div>
-    </div>
-    <div class="section-more-info">
-      <h4>
-        ¿Tienes dudas o necesitas más información?
-        <span class="light-title">
-          <a href="#">Llamanos</a>,
-          <a href="#">escríbenos</a> o
-          <a href="#">chatea con un asesor</a>
-        </span>
-      </h4>
-    </div>
-  </div>
-</div>
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Nosotros
+title: MyBusiness
 permalink: /nosotros/
 ---
 
@@ -20,5 +20,5 @@ Actualmente somos líderes en el campo de punto de venta.
 
 <p>
   Nuestros esquemas comerciales han buscando generar ganancias recurrentes para beneficio de toda nuestra cadena comercial. Quien aún no forme parte de nuestra comunidad de usuarios, distribuidores o mayoristas, los invitamos a que se unan. Puede solicitar mas información en
-  <a href="mailto:Info@MyBusinessPOS.com"></a>Info@MyBusinessPOS.com.</a>
+  <a href="mailto:Info@MyBusinessPOS.com">Info@MyBusinessPOS.com.</a>
 </p>

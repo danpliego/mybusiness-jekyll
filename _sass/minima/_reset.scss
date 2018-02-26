@@ -73,6 +73,7 @@ strong {
 }
 iframe {
   max-width: 100%;
+  border: 0;
 }
 .breadcrumb {
   background: none;
@@ -229,4 +230,7 @@ iframe {
     font-weight: 900;
     font-family: 'Camphor', sans-serif;
     margin-bottom: 1rem;
+  }
+  .list-spaced li {
+    margin-bottom: .66rem;
   }
