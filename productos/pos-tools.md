@@ -1,6 +1,6 @@
 ---
 layout: empty-page
-title: POS Tools
+title: POS TOOLS
 permalink: /productos/pos-tools/
 ---
 
@@ -11,7 +11,7 @@ permalink: /productos/pos-tools/
         <div class="hero-main-copy">
           <div class="hero-copy">
             <h1>{{ page.title | escape }}</h1>
-            <p>Es un conjunto de servicios que permiten respaldar y sincronizar la información de los puntos de venta en servidores seguros, con objeto de compartir información y establecer control hacia éstos.</p>
+            <p>Es un software de punto de venta desarrollado para Android, enriquecido con útiles herramientas que le dan su nombre.</p>
           </div>
         </div>
       </div>
@@ -23,8 +23,25 @@ permalink: /productos/pos-tools/
   <div class="container">
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1">
-        <div class="our-clients text-center">
-          <p> El software MyBusiness POS 2012 (Windows) y la aplicación gratuita POS Tools 1.2 (Android) permitirán subir, usando Internet, las ventas a servidores seguros "en la nube". En el portal <a href="mycfdi.net">mycfdi.net</a> se podrá configurar cuál o cuáles equipos son concentradores de información (productos, precios, ventas, clientes y pedidos) y qué información pueden subir y bajar de cada uno de ellos.</p>
+        <div class="our-clients">
+          <h4 class="text-center">¿Cúales son sus funciones?</h4>
+          <div class="row">
+            <div class="col-sm-6">
+              <ul class="list-unstyled icon-list">
+                <li><i class="fas fa-long-arrow-alt-right margin-lv2-right"></i>Punto de venta.</li>
+                <li><i class="fas fa-long-arrow-alt-right margin-lv2-right"></i>Venta y pedidos en ruta.</li>
+                <li><i class="fas fa-long-arrow-alt-right margin-lv2-right"></i>Venta de tiempo aire electrónico.</li>
+                <li><i class="fas fa-long-arrow-alt-right margin-lv2-right"></i>Facturación electrónica.</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <ul class="list-unstyled icon-list">
+                <li><i class="fas fa-long-arrow-alt-right margin-lv2-right"></i>Autofacturación.</li>
+                <li><i class="fas fa-long-arrow-alt-right margin-lv2-right"></i>Cobro con efectivo, tarjeta de crédito o débito con BillpocketMR, PaypalMR y PayuMR.</li>
+              </ul>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -32,64 +49,25 @@ permalink: /productos/pos-tools/
   <div class="container padding-lv5-ver">
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1">
+        <h4>¿Qué son los Servicios en la Nube?</h4>
+        <p>Es un conjunto de servicios que permiten respaldar y sincronizar la información de los puntos de venta en servidores seguros, con objeto de compartir información y establecer control hacia éstos.</p>
 
-        <h2 class="text-center">Beneficios.</h2>
-
-        La valiosa información de las ventas y catálogos de los puntos de venta estará respaldada en servidores seguros en Internet “en la nube”, de tal manera que si alguno de ellos se llega a extraviar o averiar, la información podrá volver a descargarse al equipo de punto de venta después de la reinstalación del software, poniendo a resguardo esta importante información del negocio.
-
-        Se podrán compartir los catálogos de productos y de clientes entre sucursales mediante sincronización.
-
-        Se podrá tener vendedores en ruta usando la aplicación POS Tools (Android) realizando ventas, levantando pedidos y enviando esta información a MyBusiness POS.
-
-        Se podrá definir equipos móviles (celulares o tabletas) que bajen la información de la tienda o cadena de tiendas para que el adminstrador o dueño de negocio puedan tener un control total de las ventas.
-
-        MyBusiness POS 2012 emitirá tickets que contendrán códigos QR, los cuales usarán sus clientes para autofacturarse instantáneamente con sólo leer dicho código con la aplicación POS Tools, la cual asocia el código con la venta que previamente se subió a la nube para generar de inmediato la factura electrónica.
-
-        <h2 class="text-center">¿Qué pasa con el Concentrador POS?</h2>
-
-        <p>Dado que son más las bondades de los servicios en la nube que lo que ofrece el Concentrador POS, los primeros reemplazarán al segundo</p>
-
-        <p>Si desea tener control en sus sucursales, distribuciones o franquicias el Concentrador POS le será de enorme ayuda para controlar y seguir creciendo.</p>
-
-
-
-        Software de Venta en Ruta para Android MR
-
-        ¿Qué es POS Tools?
-        Es un software de punto de venta desarrollado para Android, enriquecido con útiles herramientas que le dan su nombre.
-
-        ¿Cúales son sus funciones?
-
-        ·         Punto de venta.
-
-        ·         Venta y pedidos en ruta.
-
-        ·         Venta de tiempo aire electrónico.
-
-        ·         Facturación electrónica.
-
-        ·         Autofacturación.
-
-        ·         Cobro con efectivo, tarjeta de crédito o débito con BillpocketMR, PaypalMR y PayuMR.
-
-        ¿Qué son los Servicios en la Nube?
-
-        Es un conjunto de servicios que permiten respaldar y sincronizar la información de los puntos de venta en servidores seguros, con objeto de compartir información y establecer control hacia éstos.
-
-        ¿Por qué son indispensables los Servicios en la Nube para POS Tools?
-
-        ·         Respaldo: como los celulares y tabletas son fácilmente sujetos de estropeo o robo, la información debe estar respaldada en servidores seguros para que, en caso de un siniestro, no se pierdan los catálogos de artículos o clientes, ni las estadísticos de ventas. En este caso, la información podrá volver a descargarse al celular o tableta después de la reinstalación y configuración del software.
-
-        PantallaPOSTools
-        ·         Control: desde cualquier dispositvo móvil con Internet podrá saber, en tiempo real, cuánto ingreso ha producido su negocio y podrá obtener diversos reportes de venta.
-
-         ·         Oportunidad: usted podrá agregar o cambiar los precios de los productos desde su dispositivo móvil y su(s) tienda(s) verán reflejado el precio, permitiendo mayor competitividad .
-
-        POS Tools puede trabajar autónomamente cuando no haya Internet, pero requiere de la sincronización para enviar ventas y pedidos, así como recibir productos nuevos, listas de precios y clientes.
-
-        Este es un producto de la familia
-
-
+        <h4>¿Por qué son indispensables los Servicios en la Nube para POS Tools?</h4>
+        <ul class="list-unstyled icon-list">
+          <li>
+            <i class="fas fa-long-arrow-alt-right margin-lv2-right"></i>
+            <strong>Respaldo:</strong> como los celulares y tabletas son fácilmente sujetos de estropeo o robo, la información debe estar respaldada en servidores seguros para que, en caso de un siniestro, no se pierdan los catálogos de artículos o clientes, ni las estadísticos de ventas. En este caso, la información podrá volver a descargarse al celular o tableta después de la reinstalación y configuración del software.
+          </li>
+          <li>
+            <i class="fas fa-long-arrow-alt-right margin-lv2-right"></i>
+            <strong>Control:</strong> desde cualquier dispositvo móvil con Internet podrá saber, en tiempo real, cuánto ingreso ha producido su negocio y podrá obtener diversos reportes de venta.
+          </li>
+          <li>
+            <i class="fas fa-long-arrow-alt-right margin-lv2-right"></i>
+            <strong>Oportunidad:</strong> usted podrá agregar o cambiar los precios de los productos desde su dispositivo móvil y su(s) tienda(s) verán reflejado el precio, permitiendo mayor competitividad.
+          </li>
+        </ul>
+        <strong class="text-center">POS Tools puede trabajar autónomamente cuando no haya Internet, pero requiere de la sincronización para enviar ventas y pedidos, así como recibir productos nuevos, listas de precios y clientes.</strong>
       </div>
     </div>
     <div class="section-more-info">
