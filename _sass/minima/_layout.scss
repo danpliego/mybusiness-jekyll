@@ -4,6 +4,9 @@
   .section-more-info {
     background: $white;
   }
+  &.huatulco {
+    background: url('/images/huatulco-bg.png') no-repeat top center fixed;
+  }
 }
 .page-title {
   margin-top: 2rem;
@@ -19,6 +22,7 @@
   padding: 2rem;
 }
 .icon-list {
+  margin-bottom: 1rem;
   svg {
     position: absolute;
     margin-left: -2rem;
