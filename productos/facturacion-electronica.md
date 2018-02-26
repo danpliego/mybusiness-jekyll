@@ -6,7 +6,17 @@ permalink: /productos/facturacion-electronica
 
 <div class="more-products text-center padding-lv4-bottom">
   <div class="row">
-    <div class="product col-sm-6 padding-lv4-bottom">
+    <div class="product col-sm-4 padding-lv4-bottom">
+      <div class="icon text-center">
+        <i class="fas fa-magic primary-color"></i>
+      </div>
+      <h4>AutoFacturación</h4>
+      <p class="text-center body-xl-color font-size-sm">
+        Genera facturas automáticamente con tu ticket de compra
+      </p>
+      <a href="/productos/facturacion-electronica/autofacturacion" class="btn btn-primary">Ver detalles</a>
+    </div>
+    <div class="product col-sm-4 padding-lv4-bottom">
       <div class="icon text-center">
         <i class="fas fa-file-alt success-color"></i>
       </div>
@@ -16,7 +26,7 @@ permalink: /productos/facturacion-electronica
       </p>
       <a href="/productos/facturacion-electronica/necesitas-facturar" class="btn btn-primary">Ver Detalles</a>
     </div>
-    <div class="product col-sm-6 padding-lv4-bottom">
+    <div class="product col-sm-4 padding-lv4-bottom">
       <div class="icon text-center">
         <i class="fas fa-certificate warning-color"></i>
       </div>
