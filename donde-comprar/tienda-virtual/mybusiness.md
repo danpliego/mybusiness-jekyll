@@ -10,15 +10,15 @@ permalink: /donde-comprar/tienda-virtual/mybusiness
     <td>
       <img src="/images/productos/mybusiness/boxMBP2017.png" width="176">
     </td>
-    <td class="product-name">
+    <td>
       <strong>MyBusiness POS V. 2017 Software de Punto de Venta y Control Administrativo (2)*</strong>
       <br>
       <span class="font-size-xs body-xl-color">ID: 7507945042186</span>
     </td>
-    <td class="product-price">
+    <td>
       <h4>2,200.00<span class="font-size-xs body-xl-color">MXN</span></h4>
     </td>
-    <td class="product-pay text-center">
+    <td class="text-center">
       <strong>Paypal</strong>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="text-align: -webkit-auto;">
       <input type="hidden" name="cmd" value="_s-xclick">
@@ -38,15 +38,15 @@ permalink: /donde-comprar/tienda-virtual/mybusiness
     <td>
       <img src="/images/productos/mybusiness/boxMBP2012.jpg" width="176">
     </td>
-    <td class="product-name">
+    <td>
       <strong>MyBusiness POS V. 2012 Software de Punto de Venta y Control Administrativo (1)*</strong>
       <br>
       <span class="font-size-xs body-xl-color">ID: 7507362119539</span>
     </td>
-    <td class="product-price">
+    <td>
       <h4>2,200.00<span class="font-size-xs body-xl-color">MXN</span></h4>
     </td>
-    <td class="product-pay text-center">
+    <td class="text-center">
       <strong>Paypal</strong>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="text-align: -webkit-auto;">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -66,15 +66,15 @@ permalink: /donde-comprar/tienda-virtual/mybusiness
     <td>
       <img src="/images/productos/mybusiness/boxMBP2011.gif" width="176">
     </td>
-    <td class="product-name">
+    <td>
       <strong>MyBusiness POS V. 2011 Software de Punto de Venta y Control Administrativo (1)*</strong>
       <br>
       <span class="font-size-xs body-xl-color">ID: 507362115715</span>
     </td>
-    <td class="product-price">
+    <td>
       <h4>2,200.00<span class="font-size-xs body-xl-color">MXN</span></h4>
     </td>
-    <td class="product-pay text-center">
+    <td class="text-center">
       <strong>Paypal</strong>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="text-align: -webkit-auto;">
       <input type="hidden" name="cmd" value="_s-xclick">
@@ -94,15 +94,15 @@ permalink: /donde-comprar/tienda-virtual/mybusiness
     <td>
       <img src="/images/productos/mybusiness/boxMBP2010.jpg" width="176">
     </td>
-    <td class="product-name">
+    <td>
       <strong>MyBusiness POS V. 2010 Software de Punto de Venta y Control Administrativo (1)*</strong>
       <br>
       <span class="font-size-xs body-xl-color">ID: 507362115715</span>
     </td>
-    <td class="product-price">
+    <td>
       <h4>2,200.00<span class="font-size-xs body-xl-color">MXN</span></h4>
     </td>
-    <td class="product-pay text-center">
+    <td class="text-center">
       <strong>Paypal</strong>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="text-align: -webkit-auto;">
       <input type="hidden" name="cmd" value="_s-xclick">
@@ -122,15 +122,15 @@ permalink: /donde-comprar/tienda-virtual/mybusiness
     <td>
       <img src="/images/productos/mybusiness/boxMBP2008.jpg" width="176">
     </td>
-    <td class="product-name">
+    <td>
       <strong>MyBusiness POS V. 2008 Software de Punto de Venta y Control Administrativo (1)*</strong>
       <br>
       <span class="font-size-xs body-xl-color">ID: 507362115715</span>
     </td>
-    <td class="product-price">
+    <td>
       <h4>2,200.00<span class="font-size-xs body-xl-color">MXN</span></h4>
     </td>
-    <td class="product-pay text-center">
+    <td class="text-center">
       <strong>Paypal</strong>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="text-align: -webkit-auto;">
       <input type="hidden" name="cmd" value="_s-xclick">
